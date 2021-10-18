@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Clumsy Bird</title>
+        <link rel="apple-touch-icon-precomposed" href="clumsy_bird/data/img/touch-icon-iphone.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="data/img/touch-icon-iphone-retina.png"/>
+        <link rel="shortcut icon" href="data/img/favicon.ico">
+        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Clumsy Bird">
+        <meta charset="UTF-8" />
+        <meta name="description" content="Clumsy Bird - A Flappy Bird clone using MelonJS"/>
+        <meta name="keywords" content="flappybird, flappy, bird, game, html5, melonjs,clone"/>
+        <meta name="robots" content="index, follow">
+        <meta name="google-site-verification" content="RDZI9SqVaffd48uHfZMv67-YdvviOMe2HuULEYqVgd4" />
+        <meta property="og:image" content="http://ellisonleao.github.io/clumsy-bird/data/img/bg.png" />
+        <meta property="og:title" content="Clumsy Bird - A Flappy Bird clone using MelonJS"/>
+        <meta property="og:url" content="http://ellisonleao.github.io/clumsy-bird/"/>
+        <meta property="og:site_name" content="Clumsy Bird - MelonJS"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Glöggmyset 2021 - Minigame</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+        <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+        <link href="css/templatemo-diagoona.css" rel="stylesheet" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:hashtag" content="clumsybird" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@ellisonleao" />
+        <meta name="twitter:creator" content="@ellisonleao" />
+        <meta name="twitter:title" content="Clumsy Bird" />
+        <meta name="twitter:description" content="A Flappy Bird melonJS clone" />
+
+        <!-- Humans -->
+        <link rel="author" href="humans.txt" />
+    </head>
+
+    <body>
+        <!-- Canvas placeholder -->
+        <div class="tm-container">
+            <div>
+                <div class="tm-row pt-4">
+                    <div class="tm-col-left">
+                        <div class="tm-site-header media">
+                            <div class="media-body">
+                                <h1 class="tm-sitename text-uppercase">Glöggmyset 2021</h1>
+                                <p class="tm-slogon">5 års jubileum</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="tm-col-right">
+                        <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                            <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                                data-toggle="collapse" data-target="#navbar-nav" 
+                                aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span><i class="fas fa-bars"></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                <ul class="navbar-nav text-uppercase">
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="index.html">Hem</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="about.html">Snapvisor</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="services.html">Folket</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="contact.html">Folket</a>
+                                    </li>                             
+                                    <li class="nav-item active">
+                                        <a class="nav-link tm-nav-link" href="rim.html">Tävling<span class="sr-only">(current)</span></a>
+                                    </li>
+                                </ul>                            
+                            </div>                        
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="tm-row">
+                    <div class="tm-col-left"></div>
+                    <main class="tm-col-right tm-contact-main"> <!-- Content -->
+                        <section class="tm-content tm-contact">
+                            <h2 class="mb-4 tm-content-title bold">Tävling</h2>
+                            <p>Mest poäng vinner</p>
+                        </section>
+                    </main>
+                </div>
+            </div>        
+            <div id="screen"></div>
+                <div class="tm-row"> 
+                    <div class="tm-col-right tm-col-footer">
+                        <footer class="tm-site-footer text-right">
+                            <p class="bold">#glöggmyset2021</p>
+                            <p class="mb-0 bold">Copyright 2021 Glöggmysrådet</p>
+                        </footer>
+                    </div>  
+                </div>
+    
+            <div class="tm-bg"> <!-- Diagonal background design -->
+                <div class="tm-bg-left"></div>
+                <div class="tm-bg-right"></div>
+            </div>
+        </div>
+
+        <!-- melonJS Library -->
+        <script type="text/javascript" src="js/melonJS-min.js" ></script>
+        <script type="text/javascript" src="build/clumsy-min.js" ></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/templatemo-script.js"></script>
+        <script type="text/javascript">
+            window.onReady(function onReady() {
+                game.onload();
+            });
+        </script>
+
+    </body>
+
+</html>
